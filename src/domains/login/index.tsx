@@ -36,9 +36,13 @@ const homeContainer = css`
 
 const logoPosition = css`
   position: absolute;
-  top: 15%;
+  top: 20%;
   width: 26vh;
   height: 26vh;
+  @media (min-height: 1000px) {
+    width: 20vh;
+    height: 20vh;
+  }
 `;
 
 const loginPosition = css`
