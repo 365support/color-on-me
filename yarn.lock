@@ -1602,6 +1602,13 @@
     "@tanstack/query-core" "4.32.0"
     use-sync-external-store "^1.2.0"
 
+"@toss/use-overlay@^1.3.6":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@toss/use-overlay/-/use-overlay-1.3.6.tgz#4e432be300c1c8519d1d83430dca31e067bc9104"
+  integrity sha512-KErtqMzogwiJAV9XU65LVpr6AYDpfrK0kKPHQ0b/CC2SLN0IofuPw9bzS9Ad0dDpsyb7D1mIH4uAKwskd7os2g==
+  dependencies:
+    "@types/react" "^18.0.21"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -1668,6 +1675,15 @@
   version "18.2.17"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.17.tgz#baa565b17ddb649c2dac85b5eaf9e9a1fe0f3b4e"
   integrity sha512-u+e7OlgPPh+aryjOm5UJMX32OvB2E3QASOAqVMY6Ahs90djagxwv2ya0IctglNbNTexC12qCSMZG47KPfy1hAA==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@^18.0.21":
+  version "18.2.18"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.18.tgz#c8b233919eef1bdc294f6f34b37f9727ad677516"
+  integrity sha512-da4NTSeBv/P34xoZPhtcLkmZuJ+oYaCxHmyHzwaDQo9RQPBeXV+06gEk2FpqEcsX9XrnNLvRpVh6bdavDSjtiQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
